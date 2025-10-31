@@ -1,0 +1,125 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color:rgb(243, 240, 240);
+  color: rgb(58, 58, 58);
+  line-height: 1.6;
+}
+
+
+header {
+  background-color: rgb(208, 57, 82);
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size:40px;
+}
+
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+
+.section1 h1 {
+  color: rgb(219, 78, 102);
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.section1 a,
+.section4 a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 16px;
+  background-color:rgb(208, 57, 82);
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.section1 a:hover,
+.section4 a:hover {
+  background-color: rgb(180, 59, 79);
+  text-decoration: none;
+}
+
+.section2 h2 {
+  color: rgb(180, 59, 79);
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+textarea {
+  padding: 10px;
+  border: 1px solid rgb(199, 196, 196);
+  border-radius: 4px;
+  font-size: 16px;
+  width: 100%;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  background-color: rgb(237, 106, 128);
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: rgb(161, 34, 91);
+}
+
+
+.section4 {
+  margin-top: 30px;
+}
+
+.section4 h2 {
+  color:rgb(177, 28, 93);
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.section4 p {
+  margin: 5px 0;
+}
+
+
+.footer {
+  background-color:rgb(53, 53, 53);
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 15px;
+  margin-top: 40px;
+}
